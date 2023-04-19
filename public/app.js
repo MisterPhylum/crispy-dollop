@@ -116,25 +116,7 @@
 })();
 
 (function() {
-var global = typeof window === 'undefined' ? this : window;require.register("fs", function(exports, require, module) {
-  module.exports = {};
-});
-require.register("net", function(exports, require, module) {
-  module.exports = {};
-});
-require.register("child_process", function(exports, require, module) {
-  module.exports = {};
-});
-require.register("tls", function(exports, require, module) {
-  module.exports = {};
-});
-require.register("readline", function(exports, require, module) {
-  module.exports = {};
-});
-require.register("tty", function(exports, require, module) {
-  module.exports = {};
-});
-var process;
+var global = typeof window === 'undefined' ? this : window;
 var __makeRelativeRequire = function(require, mappings, pref) {
   var none = {};
   var tryReq = function(name, pref) {
@@ -802,28 +784,7 @@ var _default = [{
 exports["default"] = _default;
 });
 
-;require.alias("readable-stream/lib/_stream_duplex.js", "_stream_duplex");
-require.alias("readable-stream/lib/_stream_passthrough.js", "_stream_passthrough");
-require.alias("readable-stream/lib/_stream_readable.js", "_stream_readable");
-require.alias("readable-stream/lib/_stream_transform.js", "_stream_transform");
-require.alias("readable-stream/lib/_stream_writable.js", "_stream_writable");
-require.alias("assert/build/assert.js", "assert");
-require.alias("buffer/index.js", "buffer");
-require.alias("crypto-browserify/index.js", "crypto");
-require.alias("events/events.js", "events");
-require.alias("stream-http/index.js", "http");
-require.alias("https-browserify/index.js", "https");
-require.alias("os-browserify/browser.js", "os");
-require.alias("path-browserify/index.js", "path");
-require.alias("process/browser.js", "process");
-require.alias("punycode/punycode.js", "punycode");
-require.alias("querystring-es3/index.js", "querystring");
-require.alias("stream-browserify/index.js", "stream");
-require.alias("string_decoder/lib/string_decoder.js", "string_decoder");
-require.alias("util/util.js", "sys");
-require.alias("tty-browserify/index.js", "tty");
-require.alias("url/url.js", "url");
-require.alias("vm-browserify/index.js", "vm");process = require('process');require.register("___globals___", function(exports, require, module) {
+;require.register("___globals___", function(exports, require, module) {
   
 });})();require('___globals___');
 
