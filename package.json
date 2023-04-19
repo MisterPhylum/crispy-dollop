@@ -1,7 +1,7 @@
 {
   "name": "boundless-react-challenge",
   "description": "A music player written in React",
-  "private": true,
+  "private": false,
   "author": "Boundless",
   "version": "0.0.1",
   "scripts": {
@@ -10,9 +10,9 @@
     "test": "mocha test"
   },
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-responsive": "^8.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-responsive": "^9.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
@@ -24,11 +24,11 @@
     "app-module-path": "^2.2.0",
     "auto-reload-brunch": "^2",
     "babel-brunch": "^7.0.1",
-    "brunch": "^3.0.0",
+    "brunch": "^4.0.2",
     "chai": "^4.2.0",
     "clean-css-brunch": "^3.0.0",
     "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-adapter-react-16": "^1.15.7",
     "jest": "^23.0.0",
     "jsdom": "^13.2.0",
     "jsdom-global": "^3.0.2",
