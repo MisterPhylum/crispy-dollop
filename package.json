@@ -4,6 +4,9 @@
   "private": false,
   "author": "Boundless",
   "version": "0.0.1",
+  "resolutions": {
+    "babel-messages": "6.8.0"
+  },
   "scripts": {
     "start": "brunch watch --server",
     "build": "brunch build --production",
